@@ -7,7 +7,7 @@ const EmployeeRoute = require('./routes/employee')
 const AuthRoute = require('./routes/authRoute')
 
 
-mongoose.connect('mongodb://localhost:27017/tutufdb',
+mongoose.connect('mongodb://localhost:27017/userdb',
 {useNewUrlParser:true, 
     useUnifiedTopology:true}
 )
